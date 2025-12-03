@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #dce7d2;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.main-content {
+  margin: 1%;
+  flex: 1 1 auto;
+}
+
+footer {
+  margin-top: 0;
+  border-top: 1px solid;
+  width: 100%;
+  text-align: center;
+  background-color: #f0e19a;
+}
+
+.footer-text {
+  padding: 8px;
+}
+
+footer a {
+  color: #9966cc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #08235e;
+  text-decoration: none;
+}
