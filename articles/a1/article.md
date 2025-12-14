@@ -1,0 +1,11 @@
+# Qui suis-je ?
+
+## Qui suis-je ?
+
+Je suis un informaticien, un musicien et un curieux de technologie et de culture. J'aime partager des astuces, des tutos et des solutions d'exercices de mathématiques qui m'ont marqué dans le passé. J'ai toujours été curieux et attiré par les mathématiques étant petit, tout comme la musique et les jeux vidéos, trois domaines dans lesquels je me suis épanoui tout au long de ma jeunesse, de l'école primaire à l'obtention du diplôme, ce qui m'a poussé un beau jour à écrire mon propre blog où je partagerais tout ce que je peux donner de moi, d'où votre présence ici à lire mon premier article. Merci pour votre visite sur mon site, en espérant que vous y trouverez des articles qui vous sont utiles !
+
+## Qui est Krikaliov ?
+
+Mon pseudo, Krikaliov, est inspiré du nom de famille porté par le cosmonaute Sergei Krikalev (et non astronaute ni spationaute) qui a vécu le séjour le plus retardé dans une station spatiale orbitant autour de la Terre, la station MIR à l'époque, ancêtre de l'ISS: 311 jours au lieu d'environ 150 jours prévus de base par le programme Soyuz TM-13. À cause de quoi me diriez-vous? Si je vous dis que son séjour, en tant que cosmonaute durant cette mission, a débuté le 19 juillet 1991, cela vous donne-t-il un indice? Non vraiment pas?
+
+**La chute de l'Union Soviétique fin 1991** et toutes les crises économiques et les crises géopolitiques qui ont en découlé dans les pays de l'Est ont été la principale cause du retardement du retour de Krikalev sur Terre. Pendant que ses compères anglais, français ou américains enchaînaient les allers-retours entre la station MIR et la Terre, Krikalev y est resté coincé du 19 juillet 1991 au 25 mars 1992, tout pile 3 mois après la chute de son pays, ce qui fait de lui officiellement le dernier citoyen soviétique de l'histoire de l'humanité, jusqu'à ce que l'Autriche décide de décrocher le budget nécessaire pour permettre au cosmodrome de Baïkonour d'avoir les financements nécessaires au lancement de la fusée qui ramena Krikalev sur son ancienne terre natale. Pour en apprendre plus sur les aventures de Sergei Krikalev dans l'espace, je vous conseille le documentaire _Out of the Present_ ainsi que le film cubain _Sergio & Sergei_ qui content et romancent ce fragment d'histoire marquant.
