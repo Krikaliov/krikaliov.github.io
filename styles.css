@@ -8,15 +8,19 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #dce7d2;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .main-background {
-  background-image: url("assets/background.jpg");
   width: 100%;
-  height: 314px;
-  object-fit: cover;
-  align-items: center;
+  height: 195px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.background {
+  height: 195px;
 }
 
 .main-content {
@@ -39,11 +43,25 @@ nav ul li {
   display: inline-block;
   line-height: 24px;
   margin: 0 8px;
-  color: #efddfe;
 }
 
 nav ul li:first-of-type {
   margin-left: 0;
+}
+
+nav ul li a {
+  color: #efddfe;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #a67cce;
+}
+
+nav ul li a:visited {
+  text-decoration: none;
 }
 
 header {
@@ -51,8 +69,10 @@ header {
   border-bottom: 1px solid;
   width: 100%;
   text-align: center;
-  background-color: #4c19e6;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background: #2a3bbf;
+  background: linear-gradient(90deg, rgba(42, 59, 191, 1) 0%, rgba(46, 43, 173, 1) 50%, rgba(53, 35, 173, 1) 100%);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
 }
 
 header li {
