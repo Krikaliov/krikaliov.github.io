@@ -22,7 +22,7 @@ class _Base:
     raise _AbstractClass()
   def is_same(self, other:_Base):
     return self.key == other.key
-  def new_refs(self, prev:list[_PageBase]) -> _PageBase:
+  def new_refs(self, prev:list[_PageBase]) -> list[_PageBase]:
     # Must return same value by default for most item types
     return prev
 
@@ -74,7 +74,7 @@ class Link(Item):
   def __init__(self, ref:_PageBase, args:dict[str,str] = {}, children:list[_Base] = []):
     final_args:dict[str,str] = args
     final_args['href'] = ref.path
-    super().__init__('a', final_args, childrien)
+    super().__init__('a', final_args, children)
     self.ref:_PageBase = ref
   def get_children(self) -> list[_Base]:
     return self.children
@@ -100,7 +100,7 @@ class App:
     pages:list[Page] = self.__parse([], self.home.node, [self.home])
     # Build pages
     for page in pages: page.build()
-  def __parse(self, acc:list[Page], cur:_Base, remaining:list[Page]) -> list[Page]:
+  def __parse(self, acc:list[_PageBase], cur:_Base, remaining:list[_PageBase]) -> list[_PageBase]:
     # Execution can end when all pages were parsed
     if len(remaining) < 1: return acc
     # Accumulate new references from the current item
@@ -113,7 +113,7 @@ class App:
       acc = self.__parse(acc, child, remaining)
     # Every child of this page was consumed from this page
     # Start again with the next page from remaining pages
-    return self.__parse(acc, remaining[0], remaining[1:])
+    return self.__parse(acc, remaining[0].node, remaining[1:])
 
 
 if __name__ == '__main__':
