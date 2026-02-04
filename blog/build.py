@@ -1,7 +1,7 @@
 import os
 from sdk import Item, Tag, Raw, Page
 
-Page('/', [], Item('html', {'lang': 'fr'}, [
+Page('/', Item('html', {'lang': 'fr'}, [
   Item('head', {}, [
     Item('title', {}, [Raw('Super site')]),
     Tag('meta', {'charset': 'utf-8'})

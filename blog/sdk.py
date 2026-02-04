@@ -43,9 +43,9 @@ class Item(_Base):
     return self.children
   def __str__(self):
     ln:str = os.linesep
-    markup:str = self.top_markup() + ln
+    markup:str = self.top_markup()
     if (self.size > 0):
-      markup += ln.join([f'{x}' for x in self.children]) + ln
+      markup += ln.join([f'{x}' for x in self.children])
     markup += self.bottom_markup()
     return markup
 
