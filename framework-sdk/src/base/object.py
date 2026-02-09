@@ -1,0 +1,2 @@
+class AbstractClass(Exception):
+  pass
