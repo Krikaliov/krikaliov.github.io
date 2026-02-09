@@ -1,0 +1,6 @@
+# Config files
+**/.vscode/
+
+# Built files
+**/__pycache__/
+**/build/
