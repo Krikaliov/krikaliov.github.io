@@ -11,4 +11,4 @@ class Link(Item):
   def get_children(self) -> list[Base]:
     return self.children
   def new_refs(self, prev:list[PageBase]) -> list[PageBase]:
-    return prev if any([self.ref.key == x.key for x in prev]) else prev + [self.ref]
+    return prev if any([self.ref.last_build_uuid == x.last_build_uuid for x in prev]) else prev + [self.ref]
